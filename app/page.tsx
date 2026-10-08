@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function Home(){return <main className="wrap"><div className="hero card"><div className="brand">Table<span>Call</span></div><p className="sub">QR-powered waiter service</p><h1>Simple. Fast. Professional.</h1><p>Demo entry points for the first MVP.</p><div className="actions" style={{justifyContent:'center'}}><Link className="btn" href="/t/demo-table-24">Customer — Table 24</Link><Link className="btn secondary" href="/staff">Waiter Dashboard</Link></div></div></main>}
